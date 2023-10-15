@@ -6,28 +6,33 @@ body{
     box-sizing: border-box;
     display: flex;
   justify-content: center;
-  min-height: 100vh;
+  width: 100%;
   line-height: 1.15;
   align-items: center;
+    flex-direction: column;
+  
 }
+#wrapper{
+    width: 100%;
+    
 
+}
 .back-img{
   background-image: url(./pexels-pixabay-235621.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  width: 1200px;
+  width: 100%;
   height: 600px;
   justify-content: center;
   align-items: center;
   display: flex;
   flex-wrap: wrap;
 }
-#small-img{
-    width: 800px;
+
     
 
-}
+
 #get-pack{
     background-color: #4c3f83;
     display: flex;
@@ -57,4 +62,59 @@ h4{
 
 #get-it:hover{
     background-color: #283480;
+}
+#book-part{
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+  
+}
+.title{
+    font-size: 30px;
+    color: #4c3f83;
+    font-weight: bold;
+    margin-top: 90px;
+    
+}
+#options{
+    display: flex;
+    color: rgb(94, 91, 91);
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    text-decoration: none;
+}
+.icon-circle{
+    display: flex;
+    background-color:rgb(94, 91, 91);
+    color: rgb(161, 77, 234);
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    
+    flex-direction: column;
+   align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+.onclick{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 12px;
+}
+.icon-circle:hover{
+    color: black;
+    background-color: #ff5e00;
+}
+.fa-solid fa-ticket{
+    color: #fff;
+    width: 100px;
+   
 }
