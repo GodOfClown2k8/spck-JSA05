@@ -53,7 +53,7 @@ h4{
     color: #fff;
 }
 
-#get-it {
+.get-it {
     background-color: #ff5e00;
     width: 170px;
     border-radius: 12px;
@@ -63,7 +63,7 @@ h4{
     
 }
 
-#get-it:hover{
+.get-it:hover{
     background-color: #283480;
 }
 #book-part{
@@ -76,9 +76,10 @@ h4{
 }
 .title{
     font-size: 30px;
-    color: #4c3f83;
+    color: #201547;
     font-weight: bold;
     margin-top: 90px;
+    text-align: center;
     
 }
 #options{
@@ -159,11 +160,11 @@ h4{
     justify-content: center;
 }
 p{
-    color: #4c3f83;
+    color: #201547;
 }
 .button-idk{
     margin-top: 10px;
-    width: 170px;
+    width: 270px;
     border-radius: 12px;
     height: 60px;
     background-color: #fff;
@@ -171,6 +172,7 @@ p{
     border-color: #ff5e00;
     color: #ff5e00;
     font-weight: 600;
+    float: left;
 }
 .ad-wrapper{
     margin-bottom: 20px;
@@ -182,7 +184,7 @@ p{
   }
   body{
 	text-align: center;
-	
+	background-color:aliceblue;
   font-family: sans-serif;
   font-weight: 100;
 }
@@ -220,4 +222,48 @@ h1{
 .smalltext{
 	padding-top: 5px;
 	font-size: 16px;
+}
+.button{
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ff5e00;
+    border: none;
+    width: 200px;
+    height: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 35px;
+    color: #fff;
+    
+}
+.button:hover{
+    background-color:#283480;
+}
+#button{
+    display: flex;
+    justify-content: center;
+}
+.back-intro{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    margin-top: 30px;
+}
+.text-sett{
+    text-align:center;
+    word-wrap:break-word;
+    padding-right: 150px;
+    padding-left: 150px;
+}
+.title2{
+    font-size: 60px;
+    color: #201547;
+    font-weight: bold;
+    margin-top: 60px;
+    text-align: center;
+
 }
