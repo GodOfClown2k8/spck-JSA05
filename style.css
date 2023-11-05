@@ -1,12 +1,12 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 body{
-    box-sizing: border-box;
+
     display: flex;
   justify-content: center;
-  width: 100%;
   line-height: 1.15;
   align-items: center;
     flex-direction: column;
@@ -337,58 +337,78 @@ h1{
 }
 
 .footer{
-    width: 1472px;
+    width: 100%;
     height: 500px;
     display: flex;
     background-color: #201547;
     margin-top: 1000px;
     padding: 50px 0px 0px;
+    gap:20px;
 
 }
-.chu1{
-    color:white;
-    font-family: sans-serif;
-    margin-left: 100px;
-    margin-top:50px;
+
+.i{   flex-grow: 2;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+
+}
+.chulon{
+    color: white;
+    margin-left: 50px;
+    text-align: left;
+    
+}
+.chu{
+    position: relative;
+    color: gray;
+    font-size: small;
+    padding-left: 50px;
+    margin-top:20px ;
+    text-align: left;
+    opacity: 0.6;
+    color: white;
+    transition: all 0.1s ease-in;
+    cursor: pointer;
+}
+
+.chu:hover {
+    opacity: 1;
+    transform: translateX(8px);
+
+}
+
+.usf{
+    width: 196px;
+    height: 98px;
+}
+.yeti{
+    width: 196px;
+    height: 98px;
+}
+.toyota{
+    
+    width: 196px;
+    height: 98px;
     
 }
 
-.chu1nho{
-    margin-top: 20px;
-    color:gray;
-
+.s{
+    height: 170px;
+    position: relative;
+    top:250px;
+    right: 350px;
 }
-
-#acc{
-    margin-top: 10px;
+.fa-brands{
+   
 }
-
 .chu2{
-    color:white;
-    font-family: sans-serif;
-    margin-left: 70px;
-    margin-top:50px;
-
+    position: relative;
+    right: 130px;
 }
-.chu2nho{
-    margin-top: 20px;
-    color:gray;
-
+.chu3{
+    position: relative;
+    right: 60px;
 }
-#par{
-    margin-top: 10px;
-}
-#mou{
-    margin-top: 10px;
-}
-#event{
-    margin-top: 10px;
-}
-
-
-
-
-
-
-
-
