@@ -11,10 +11,19 @@ body{
   align-items: center;
     flex-direction: column;
   gap: 10px;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  background-color: #f3f2e9;
+
 }
 #wrapper{
     width: 100%;
+    height: auto;
     
+    margin: 0 auto;
+    background: #f4f3ee;
+    overflow: hidden;
+    position: relative;
 
 }
 .back-img{
@@ -28,12 +37,15 @@ body{
   align-items: center;
   display: flex;
   flex-wrap: wrap;
+
 }
 
     
 #book-part{
     gap: 10px;
     margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+
 }
 
 #get-pack{
@@ -45,12 +57,16 @@ body{
     padding: 16px 80px 16px 80px; 
     height: 200px;
     justify-content: center;
+    text-decoration: none;
+    color: white;
 }
 #first-title{
     color: #fff;
+    font-family: 'Roboto', sans-serif;
 }
 h4{
     color: #fff;
+
 }
 
 .get-it {
@@ -60,11 +76,13 @@ h4{
     height: 60px;
     color: #fff;
     font-family: Bakbak One;
-    
+    text-decoration: none;
+    line-height: 60px;
 }
 
 .get-it:hover{
     background-color: #283480;
+
 }
 #book-part{
     justify-content: center;
@@ -72,6 +90,7 @@ h4{
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
+    flex-wrap: nowrap;
   
 }
 .title{
@@ -80,6 +99,7 @@ h4{
     font-weight: bold;
     margin-top: 90px;
     text-align: center;
+    text-decoration: none;
     
 }
 #options{
@@ -91,6 +111,7 @@ h4{
     align-items: center;
     gap: 50px;
     text-decoration: none;
+
 }
 .icon-circle{
     display: flex;
@@ -99,12 +120,13 @@ h4{
     border-radius: 50%;
     width: 80px;
     height: 80px;
-    
+    text-decoration: none;
     flex-direction: column;
    align-items: center;
     flex-wrap: wrap;
     align-content: center;
     justify-content: center;
+
 }
 .onclick{
     align-items: center;
@@ -112,15 +134,18 @@ h4{
     justify-content: center;
     flex-direction: column;
     gap: 12px;
+
 }
 .icon-circle:hover{
     color: black;
     background-color: #ff5e00;
+
 }
 .fa-solid fa-ticket{
     color: #fff;
     width: 100px;
-   
+    height: auto;
+
 }
 .ad{
     width: 100%;
@@ -133,7 +158,8 @@ h4{
     flex-direction: column;
     padding: 5px;
     height: 600px;
-    
+    text-decoration: none;
+
 }
 
     
@@ -143,24 +169,27 @@ h4{
     
     position: relative;
     transition: all 3s ease-in-out;
+
 }
 
 
 
 .img:hover{
     opacity: 0.5;
-
+    
 }
 .ad-pack{
     display: flex;
-    
+    text-decoration: none;
     flex-direction: row;
     align-content: center;
     align-items: center;
     justify-content: center;
+    margin: auto;
 }
 p{
     color: #201547;
+    font-size: 18px;
 }
 .button-idk{
     margin-top: 10px;
@@ -173,20 +202,25 @@ p{
     color: #ff5e00;
     font-weight: 600;
     float: left;
+    text-decoration: none;
+    cursor: pointer;
 }
 .ad-wrapper{
     margin-bottom: 20px;
+
 }
 #p {
     text-align: center;
     font-size: 60px;
     margin-top: 0px;
+    line-height: 80px;
   }
   body{
 	text-align: center;
 	background-color:aliceblue;
   font-family: sans-serif;
   font-weight: 100;
+
 }
 
 h1{
@@ -194,6 +228,7 @@ h1{
   font-weight: 100;
   font-size: 40px;
   margin: 40px 0px 20px;
+
 }
 
 #clockdiv{
@@ -203,6 +238,7 @@ h1{
 	font-weight: 100;
 	text-align: center;
 	font-size: 30px;
+
 }
 
 #clockdiv > div{
@@ -210,6 +246,7 @@ h1{
 	border-radius: 3px;
 	background: #00BF96;
 	display: inline-block;
+
 }
 
 #clockdiv div > span{
@@ -217,11 +254,13 @@ h1{
 	border-radius: 3px;
 	background: #00816A;
 	display: inline-block;
+    margin-right: -webkit-calc(1%);
 }
 
 .smalltext{
 	padding-top: 5px;
 	font-size: 16px;
+
 }
 .button{
     align-content: center;
@@ -235,14 +274,17 @@ h1{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border-radius: 35px;
     color: #fff;
+    text-decoration: none;
     
 }
 .button:hover{
     background-color:#283480;
+
 }
 #button{
     display: flex;
     justify-content: center;
+    margin-left: auto;
 }
 .back-intro{
     display: flex;
@@ -252,12 +294,17 @@ h1{
     align-items: center;
     align-content: center;
     margin-top: 30px;
+    
 }
 .text-sett{
     text-align:center;
     word-wrap:break-word;
     padding-right: 150px;
     padding-left: 150px;
+    text-decoration: none;
+    list-style-type: none;
+    line-height: 1.7em;
+    font-weight: bold;
 }
 .title2{
     font-size: 60px;
@@ -265,6 +312,8 @@ h1{
     font-weight: bold;
     margin-top: 60px;
     text-align: center;
+    text-decoration: none;
+
 
 }
 .event{
@@ -272,13 +321,33 @@ h1{
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
     display: flex;
     gap: 50px;
-    
+    max-width: 70%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-bottom: 60px;
+
+}
+.event-pack{
+    border: 2px solid #9a97aa;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    width: 80%;
+    height: auto;
+    background-color: #fafbfc;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+
 }
 
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+
 }
 
 
@@ -296,6 +365,7 @@ h1{
     margin-left: 430px;
     width: 400px;
     margin-top: 5px;
+
  }
 .item{
     display: flex;
@@ -304,16 +374,13 @@ h1{
     margin-top: 10px;
     gap: 20px;
 
-    
-
-    
 }
 
 .mn{
     margin-left: 20px;
     display: flex;
     align-items: center;
-
+    
 }
 
 
