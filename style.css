@@ -461,7 +461,142 @@ h1{
 
 }
 
+.footer{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    background-color: #201547;
+    margin-top: 1000px;
+    padding: 50px 0px 0px;
+    gap:20px;
 
+}
+
+.i{   flex-grow: 2;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+
+}
+.chulon{
+    color: white;
+    margin-left: 50px;
+    text-align: left;
+    
+}
+.chu{
+    position: relative;
+    color: gray;
+    font-size: small;
+    padding-left: 50px;
+    margin-top:20px ;
+    text-align: left;
+    opacity: 0.6;
+    color: white;
+    transition: all 0.1s ease-in;
+    cursor: pointer;
+}
+
+.chu:hover {
+    opacity: 1;
+    transform: translateX(8px);
+
+}
+
+.usf{
+    width: 196px;
+    height: 98px;
+}
+.yeti{
+    width: 196px;
+    height: 98px;
+}
+.toyota{
+    
+    width: 196px;
+    height: 98px;
+    
+}
+
+.s{
+    height: 170px;
+    position: relative;
+    top:250px;
+    right: 350px;
+}
+.fa-brands{
+   
+}
+.chu2{
+    position: relative;
+    right: 130px;
+}
+.chu3{
+    position: relative;
+    right: 60px;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+.header {
+    display: flex;
+    height: 50px;
+    margin-top: 3px;
+    width: 100%;
+    padding-right: 20px;
+    
+ }
+ #image{
+    margin-left: 430px;
+    width: 400px;
+    margin-top: 5px;
+ }
+.item{
+    display: flex;
+    margin-left: 380px;
+    align-items: center;
+    margin-top: 10px;
+    gap: 20px;
+
+    
+
+    
+}
+
+.mn{
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+
+}
+
+
+.dropdown{
+    display: flex;
+    align-items: center;
+    gap:6px;
+    border-right: 1px solid #000;
+    padding-right: 20px;
+
+
+   
+    
+   
+  
+}
+
+.dropdown:last-child {
+    border: none; 
+    padding: 0px;
+    
+}
 
 
 
