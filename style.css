@@ -319,7 +319,7 @@ h1{
     border-radius: 35px;
     color: #fff;
     text-decoration: none;
-    text-decoration: none;
+   
     
 }
 .button:hover{
@@ -327,10 +327,14 @@ h1{
 
 
 }
-#button{
+.button2{
     display: flex;
     justify-content: center;
-    margin-left: auto;
+    align-items: center;
+    justify-items: center;
+    background-color: #ff5e00;
+    border: none;
+    width: 200px;
     margin-left: auto;
 }
 .back-intro{
