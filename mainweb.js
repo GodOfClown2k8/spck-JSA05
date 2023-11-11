@@ -64,7 +64,7 @@ if (username && password) {
   }
 }
 document.addEventListener('DOMContentLoaded', function() {
-const loginStatusElement = document.getElementById('loginStatus');//!*!
+const loginStatusElement = document.getElementById('button');//!*!
 
 const isLoggedIn = true; //kiểm tra logic đăng nhập thực tế
 

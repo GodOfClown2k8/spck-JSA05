@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ticket Sales Form</title>
+  <link rel="stylesheet" type="text/css" href="./signup.css">
+  <style>
+    body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  width: 90%;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+input[type="submit"] {
+  display: block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+select{
+    margin-bottom: 3%;
+    background-color: #eee;
+    border: none;
+    padding: 12px 15px;
+    margin: 8px 0;
+    width: 100%;
+}
+  </style>
+</head>
+<body>
+  <h1>Ticket Sales Form</h1>
+  <form id="ticketForm">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="quantity">Quantity:</label>
+    <input type="number" id="quantity" name="quantity" min="1" required>
+
+    <label for="price">Price per ticket (in $):</label>
+    <input type="number" id="price" name="price" min="1" step=".01" required>
+
+    <label for="event">Event:</label>
+    <select id="event" name="event" required >
+      <option value="concert">Concert</option>
+      <option value="sports">Sports</option>
+      <option value="theater">Theater</option>
+    </select>
+
+    <input type="submit" value="Buy Tickets">
+  </form>
+
+  <script src="script.js">
+    document.getElementById("ticketForm").addEventListener("submit", function(event) {
+  event.preventDefault(); // Prevent form submission
+
+  // Get form values
+  var name = document.getElementById("name").value;
+  var email = document.getElementById("email").value;
+  var quantity = document.getElementById("quantity").value;
+
+  // Perform validation or further processing
+  // For example, you can send the form data to a server using AJAX
+
+  // Display success message
+  alert("Tickets purchased successfully!");
+});
+
+  </script>
+</body>
+</html>
