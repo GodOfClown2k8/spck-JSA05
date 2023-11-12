@@ -536,9 +536,7 @@ margin-top: 3px;
 }
 
 .chu2{
-    color:white;
-    font-family: sans-serif;
-    margin-left: 70px;
+    margin-right: 50px;
     margin-top:50px;
 
 }
@@ -633,13 +631,9 @@ margin-top: 3px;
 .fa-brands{
    
 }
-.chu2{
-    position: relative;
-    right: 130px;
-}
+
 .chu3{
-    position: relative;
-    right: 60px;
+    margin-top: 50px;
 }
 * {
     padding: 0;
